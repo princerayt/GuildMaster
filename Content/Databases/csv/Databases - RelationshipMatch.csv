@@ -1,0 +1,59 @@
+RowName,SelfTrait_Name,SelfTrait_Value,Conditional_Operator,PartnerTrait_Name,PartnerTrait_Value,PartnerTrait_Value2,Relationship_Impact
+Respect_1,Trait_Respect,Уважает простой народ,Equal,WarriorClass,Крестьянин,NULL,1
+Respect_2,Trait_Respect,Уважает знать,Equal,WarriorClass,Рыцарь,NULL,1
+Respect_3,Trait_Respect,Уважает бандитов,Equal,WarriorClass,Бывший вор,NULL,1
+Respect_4,Trait_Respect,Уважает военных,Equal,WarriorClass,Бывший вояка,NULL,1
+,,,,,,,
+CommunicationType_1,Trait_CommunicationType,Душа компании,Equal,Trait_CommunicationType,Душа компании,NULL,-1
+CommunicationType_2,Trait_CommunicationType,Душа компании,Equal,Trait_CommunicationType,Общительный,NULL,1
+CommunicationType_3,Trait_CommunicationType,Душа компании,Equal,Trait_CommunicationType,Интроверт,NULL,0
+CommunicationType_4,Trait_CommunicationType,Душа компании,Equal,Trait_CommunicationType,Мизантроп,NULL,-1
+CommunicationType_5,Trait_CommunicationType,Общительный,Equal,Trait_CommunicationType,Душа компании,NULL,1
+CommunicationType_6,Trait_CommunicationType,Общительный,Equal,Trait_CommunicationType,Общительный,NULL,1
+CommunicationType_7,Trait_CommunicationType,Общительный,Equal,Trait_CommunicationType,Интроверт,NULL,1
+CommunicationType_8,Trait_CommunicationType,Общительный,Equal,Trait_CommunicationType,Мизантроп,NULL,-1
+CommunicationType_9,Trait_CommunicationType,Интроверт,Equal,Trait_CommunicationType,Душа компании,NULL,-1
+CommunicationType_10,Trait_CommunicationType,Интроверт,Equal,Trait_CommunicationType,Общительный,NULL,0
+CommunicationType_11,Trait_CommunicationType,Интроверт,Equal,Trait_CommunicationType,Интроверт,NULL,1
+CommunicationType_12,Trait_CommunicationType,Интроверт,Equal,Trait_CommunicationType,Мизантроп,NULL,0
+CommunicationType_13,Trait_CommunicationType,Мизантроп,Equal,Trait_CommunicationType,Душа компании,NULL,-1
+CommunicationType_14,Trait_CommunicationType,Мизантроп,Equal,Trait_CommunicationType,Общительный,NULL,-1
+CommunicationType_15,Trait_CommunicationType,Мизантроп,Equal,Trait_CommunicationType,Интроверт,NULL,0
+CommunicationType_16,Trait_CommunicationType,Мизантроп,Equal,Trait_CommunicationType,Мизантроп,NULL,1
+,,,,,,,
+ImportantSkills_1,Trait_ImportantSkills,Ценит ловкость,Interval,Stat_Agility,1,3,-1
+ImportantSkills_2,Trait_ImportantSkills,Ценит ловкость,Interval,Stat_Agility,4,6,0
+ImportantSkills_3,Trait_ImportantSkills,Ценит ловкость,Interval,Stat_Agility,6,10,1
+ImportantSkills_4,Trait_ImportantSkills,Ценит силу,Interval,Stat_Strenght,1,3,-1
+ImportantSkills_5,Trait_ImportantSkills,Ценит силу,Interval,Stat_Strenght,4,6,0
+ImportantSkills_6,Trait_ImportantSkills,Ценит силу,Interval,Stat_Strenght,6,10,1
+ImportantSkills_7,Trait_ImportantSkills,Ценит ум,Interval,Stat_Intelligence,1,3,-1
+ImportantSkills_8,Trait_ImportantSkills,Ценит ум,Interval,Stat_Intelligence,4,6,0
+ImportantSkills_9,Trait_ImportantSkills,Ценит ум,Interval,Stat_Intelligence,6,10,1
+,,,,,,,
+MoralBasis_1,Trait_MoralBasis,Добрый,Equal,Trait_MoralBasis,Добрый,NULL,1
+MoralBasis_2,Trait_MoralBasis,Добрый,Equal,Trait_MoralBasis,Нейтральный,NULL,0
+MoralBasis_3,Trait_MoralBasis,Добрый,Equal,Trait_MoralBasis,Злой,NULL,-1
+MoralBasis_4,Trait_MoralBasis,Нейтральный,Equal,Trait_MoralBasis,Добрый,NULL,0
+MoralBasis_5,Trait_MoralBasis,Нейтральный,Equal,Trait_MoralBasis,Нейтральный,NULL,0
+MoralBasis_6,Trait_MoralBasis,Нейтральный,Equal,Trait_MoralBasis,Злой,NULL,0
+MoralBasis_7,Trait_MoralBasis,Злой,Equal,Trait_MoralBasis,Добрый,NULL,-1
+MoralBasis_8,Trait_MoralBasis,Злой,Equal,Trait_MoralBasis,Нейтральный,NULL,-1
+MoralBasis_9,Trait_MoralBasis,Злой,Equal,Trait_MoralBasis,Злой,NULL,1
+,,,,,,,
+OrderRelation_1,Trait_OrderRelation,Законопослушный,Equal,Trait_OrderRelation,Законопослушный,NULL,1
+OrderRelation_2,Trait_OrderRelation,Законопослушный,Equal,Trait_OrderRelation,Справедливый,NULL,0
+OrderRelation_3,Trait_OrderRelation,Законопослушный,Equal,Trait_OrderRelation,Эгоцентричный,NULL,-1
+OrderRelation_4,Trait_OrderRelation,Законопослушный,Equal,Trait_OrderRelation,Анархист,NULL,-1
+OrderRelation_5,Trait_OrderRelation,Справедливый,Equal,Trait_OrderRelation,Законопослушный,NULL,0
+OrderRelation_6,Trait_OrderRelation,Справедливый,Equal,Trait_OrderRelation,Справедливый,NULL,1
+OrderRelation_7,Trait_OrderRelation,Справедливый,Equal,Trait_OrderRelation,Эгоцентричный,NULL,-1
+OrderRelation_8,Trait_OrderRelation,Справедливый,Equal,Trait_OrderRelation,Анархист,NULL,-1
+OrderRelation_9,Trait_OrderRelation,Эгоцентричный,Equal,Trait_OrderRelation,Законопослушный,NULL,0
+OrderRelation_10,Trait_OrderRelation,Эгоцентричный,Equal,Trait_OrderRelation,Справедливый,NULL,0
+OrderRelation_11,Trait_OrderRelation,Эгоцентричный,Equal,Trait_OrderRelation,Эгоцентричный,NULL,0
+OrderRelation_12,Trait_OrderRelation,Эгоцентричный,Equal,Trait_OrderRelation,Анархист,NULL,-1
+OrderRelation_13,Trait_OrderRelation,Анархист,Equal,Trait_OrderRelation,Законопослушный,NULL,-1
+OrderRelation_14,Trait_OrderRelation,Анархист,Equal,Trait_OrderRelation,Справедливый,NULL,0
+OrderRelation_15,Trait_OrderRelation,Анархист,Equal,Trait_OrderRelation,Эгоцентричный,NULL,-1
+OrderRelation_16,Trait_OrderRelation,Анархист,Equal,Trait_OrderRelation,Анархист,NULL,0
